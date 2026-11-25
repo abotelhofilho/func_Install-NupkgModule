@@ -100,4 +100,4 @@ Get-Module -ListAvailable Az.Storage
 - Remote installs assume Windows is on the `C:` drive of the target computer.
 - Packages are extracted to a temporary folder under `$env:TEMP`, which is deleted when the function finishes.
 - If an older copy of a module is installed for your account only (`Documents\WindowsPowerShell\Modules`), it can be loaded instead of the all-users copy. Remove it to avoid version conflicts.
-- To download the Az packages, use [`Download-PS-Az-Modules`](https://github.com/abotelhofilho/Download-PS-Az-Modules).
+- To download the Az packages, use [`Download-PS-Az-Modules`](https://github.com/abotelhofilho/func_Download-PS-Az-Modules).
